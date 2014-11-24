@@ -120,6 +120,8 @@ I can be contacted at albntomat0@gmail.com for questions/comments.
 ### Further Work
 This work will be continued next semester as an independent study. The goals of this study are to improve the precision of the current design, and implement a network used for a modern application of ANNs, such as handwriting recognition.
 
+Update: Delayed to work BBC communication algorithm security.
+
 ### Documentation
 Two's complement factions - https://stackoverflow.com/questions/9946183/2s-complement-representation-of-fractions
 https://en.wikipedia.org/wiki/Fixed-point_arithmetic
