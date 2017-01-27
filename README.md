@@ -1,11 +1,13 @@
+# NOTE: This is the writeup as it was done for my class (Spring 2014), including things that are a bit out of place, such as the goofy video, class requirements that really don't make sense in a  public project, etc. I haven't touched it since May of 2014, and do not provide support for it.
+
 ## Prelab
 ### Description
-I would like to implement an artificial neural network in hardware, capable of learning to do basic operations (addition, subtraction, and, or) based solely on being given sample data for each. Since full learning is difficult (I believe that I can achieve it however), my interface will be simple, using the font controller and acting like a simple calculator. This project is fairly cutting edge, with the implementation of the math needed being the topic of multiple papers within the last couple years (Jamal, Khammas, ìIMPLEMENTATION OF A SIGMOID ACTIVATION FUNCTION FOR NEURAL NETWORK USING FPGAî, and Rajeswaran,  ìVHDL synthesizable hardware architecture design of back propagation neural networksî).
+I would like to implement an artificial neural network in hardware, capable of learning to do basic operations (addition, subtraction, and, or) based solely on being given sample data for each. Since full learning is difficult (I believe that I can achieve it however), my interface will be simple, using the font controller and acting like a simple calculator. This project is fairly cutting edge, with the implementation of the math needed being the topic of multiple papers within the last couple years (Jamal, Khammas, ‚ÄúIMPLEMENTATION OF A SIGMOID ACTIVATION FUNCTION FOR NEURAL NETWORK USING FPGA‚Äù, and Rajeswaran,  ‚ÄúVHDL synthesizable hardware architecture design of back propagation neural networks‚Äù).
 
 ### Functionality Levels
-Required ñ Network has full interface, but preset weights. This would simulate a static network with no learning. However, getting forward propagation to work properly involves some difficult math, especially in hardware. 
-B ñ Network has the fully supporting modules needed for back propagation, notably the modules for creating test cases (needed many thousand for suitable learning).
-A ñ Network is fully capable of back propagation learning (I anticipate the most difficulty here)
+Required ‚Äì Network has full interface, but preset weights. This would simulate a static network with no learning. However, getting forward propagation to work properly involves some difficult math, especially in hardware. 
+B ‚Äì Network has the fully supporting modules needed for back propagation, notably the modules for creating test cases (needed many thousand for suitable learning).
+A ‚Äì Network is fully capable of back propagation learning (I anticipate the most difficulty here)
 
 ### Timeline
 Realistically, this may take more time than I have available in class. However, I still believe that I can accomplish it.
